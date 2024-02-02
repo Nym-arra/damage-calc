@@ -61,19 +61,19 @@ const RBY: {[name: string]: SpeciesData} = {
     nfe: true,
   },
   Blastoise: {
-    types: ['Water'],
+    types: ['Water', 'Steel'],
     bs: {hp: 79, at: 83, df: 100, sp: 78, sl: 85},
     weightkg: 85.5,
   },
   Bulbasaur: {
     types: ['Grass', 'Poison'],
-    bs: {hp: 45, at: 49, df: 49, sp: 45, sl: 65},
+    bs: {hp: 50, at: 54, df: 50, sp: 45, sl: 65},
     weightkg: 6.9,
     nfe: true,
   },
   Butterfree: {
     types: ['Bug', 'Flying'],
-    bs: {hp: 60, at: 45, df: 50, sp: 70, sl: 80},
+    bs: {hp: 80, at: 45, df: 50, sp: 95, sl: 80},
     weightkg: 32,
   },
   Caterpie: {
@@ -88,7 +88,7 @@ const RBY: {[name: string]: SpeciesData} = {
     weightkg: 34.6,
   },
   Charizard: {
-    types: ['Fire', 'Flying'],
+    types: ['Fire', 'Dragon'],
     bs: {hp: 78, at: 84, df: 78, sp: 100, sl: 85},
     weightkg: 90.5,
   },
@@ -99,7 +99,7 @@ const RBY: {[name: string]: SpeciesData} = {
     nfe: true,
   },
   Charmeleon: {
-    types: ['Fire'],
+    types: ['Fire', 'Dragon'],
     bs: {hp: 58, at: 64, df: 58, sp: 80, sl: 65},
     weightkg: 19,
     nfe: true,
@@ -309,7 +309,7 @@ const RBY: {[name: string]: SpeciesData} = {
   },
   Ivysaur: {
     types: ['Grass', 'Poison'],
-    bs: {hp: 60, at: 62, df: 63, sp: 60, sl: 80},
+    bs: {hp: 70, at: 62, df: 63, sp: 60, sl: 80},
     weightkg: 13,
     nfe: true,
   },
@@ -731,7 +731,7 @@ const RBY: {[name: string]: SpeciesData} = {
   },
   Venusaur: {
     types: ['Grass', 'Poison'],
-    bs: {hp: 80, at: 82, df: 83, sp: 80, sl: 100},
+    bs: {hp: 90, at: 82, df: 83, sp: 80, sl: 100},
     weightkg: 100,
   },
   Victreebel: {
@@ -809,7 +809,7 @@ const GSC_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
   Bellsprout: {bs: {sa: 70, sd: 30}},
   Blastoise: {bs: {sa: 85, sd: 105}},
   Bulbasaur: {bs: {sa: 65, sd: 65}},
-  Butterfree: {bs: {sa: 80, sd: 80}},
+  Butterfree: {bs: {sa: 100, sd: 80}},
   Caterpie: {bs: {sa: 20, sd: 20}},
   Chansey: {bs: {sa: 35, sd: 105}, nfe: true},
   Charizard: {bs: {sa: 109, sd: 85}},
@@ -938,7 +938,7 @@ const GSC_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
   Vaporeon: {bs: {sa: 110, sd: 95}},
   Venomoth: {bs: {sa: 90, sd: 75}},
   Venonat: {bs: {sa: 40, sd: 55}},
-  Venusaur: {bs: {sa: 100, sd: 100}},
+  Venusaur: {bs: {sa: 114, sd: 100}},
   Victreebel: {bs: {sa: 100, sd: 60}},
   Vileplume: {bs: {sa: 100, sd: 90}},
   Voltorb: {bs: {sa: 55, sd: 55}, gender: 'N'},
